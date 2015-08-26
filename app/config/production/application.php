@@ -3,7 +3,7 @@
 return array(
     'database' => array(
         'adapter' => 'Mysql',
-        'host' => getenv('DB_3306_TCP_ADDR'),
+        'host' => 'db',
         'username' => 'root',
         'password' => 'vagrant',
         'dbname' => 'yona',
