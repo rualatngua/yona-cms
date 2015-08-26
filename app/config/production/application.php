@@ -3,10 +3,10 @@
 return array(
     'database' => array(
         'adapter' => 'Mysql',
-        'host' => getenv('DB_HOST'),
-        'username' => getenv('DB_USER'),
-        'password' => getenv('DB_PASS'),
-        'dbname' => getenv('DB_NAME'),
+        'host' => getenv('DB_3306_TCP_ADDR'),
+        'username' => 'root',
+        'password' => 'vagrant',
+        'dbname' => 'yona',
         'charset' => 'utf8',
     ),
     'cache' => 'file', // file, memcache
